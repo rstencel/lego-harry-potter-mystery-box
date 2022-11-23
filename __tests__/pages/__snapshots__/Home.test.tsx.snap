@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Should match snapshot 1`] = `
+<div>
+  <main>
+    <h1>
+      LEGO minifigs mystery box
+    </h1>
+    <button
+      style="margin-bottom: 2rem;"
+    >
+      Let's go!
+    </button>
+    <div
+      class="loader-with-message"
+      style="visibility: hidden;"
+    >
+      <div
+        class="loader"
+      />
+      <p
+        style="color: white; margin-left: 1rem;"
+      >
+        Drawing minifigs ...
+      </p>
+    </div>
+  </main>
+</div>
+`;

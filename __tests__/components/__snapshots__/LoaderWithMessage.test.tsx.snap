@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoaderWithMessage Should match snapshot - invisible 1`] = `
+<div>
+  <div
+    class="loader-with-message"
+    style="visibility: hidden;"
+  >
+    <div
+      class="loader"
+    />
+    <p
+      style="color: white; margin-left: 1rem;"
+    >
+      Drawing minifigs ...
+    </p>
+  </div>
+</div>
+`;
+
+exports[`LoaderWithMessage Should match snapshot - visible 1`] = `
+<div>
+  <div
+    class="loader-with-message"
+    style="visibility: visible;"
+  >
+    <div
+      class="loader"
+    />
+    <p
+      style="color: white; margin-left: 1rem;"
+    >
+      Drawing minifigs ...
+    </p>
+  </div>
+</div>
+`;

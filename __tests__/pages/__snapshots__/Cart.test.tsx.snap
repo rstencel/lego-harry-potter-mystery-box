@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart Should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <main>
+      <form
+        class="container"
+      >
+        <div
+          class="shippingDetails"
+        >
+          <h1>
+            Shipping details
+          </h1>
+          <div
+            class="form"
+          >
+            <div
+              class="div1"
+            >
+              <label
+                class="required-field"
+                for="name"
+              >
+                Name
+              </label>
+              <input
+                id="name"
+                name="name"
+                placeholder="Name"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+            <div
+              class="div2"
+            >
+              <label
+                class="required-field"
+                for="surname"
+              >
+                Surname
+              </label>
+              <input
+                id="surname"
+                name="surname"
+                placeholder="Surname"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+            <div
+              class="div3"
+            >
+              <label
+                for="phoneNumber"
+              >
+                Phone Number
+              </label>
+              <input
+                id="phoneNumber"
+                name="phoneNumber"
+                placeholder="Phone Number"
+                type="tel"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+            <div
+              class="div4"
+            >
+              <label
+                class="required-field"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                id="email"
+                name="email"
+                placeholder="Email"
+                type="tel"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+            <div
+              class="div5"
+            >
+              <label
+                for="dateOfBirth"
+              >
+                Date of Birth
+              </label>
+              <input
+                id="dateOfBirth"
+                name="dateOfBirth"
+                placeholder="Date of Birth"
+                type="date"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+            <div
+              class="div6"
+            >
+              <label
+                class="required-field"
+                for="address"
+              >
+                Address
+              </label>
+              <input
+                id="address"
+                name="address"
+                placeholder="Address"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+            <div
+              class="div7"
+            >
+              <label
+                class="required-field"
+                for="city"
+              >
+                City
+              </label>
+              <input
+                id="city"
+                name="city"
+                placeholder="City"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+            <div
+              class="div8"
+            >
+              <label
+                class="required-field"
+                for="state"
+              >
+                State
+              </label>
+              <input
+                id="state"
+                name="state"
+                placeholder="State"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+            <div
+              class="div9"
+            >
+              <label
+                class="required-field"
+                for="zipCode"
+              >
+                Zip Code
+              </label>
+              <input
+                id="zipCode"
+                name="zipCode"
+                placeholder="Zip Code"
+              />
+              <p
+                class="error"
+                style="visibility: hidden;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <h1
+            style="color: black;"
+          >
+            Summary
+          </h1>
+          <div
+            class="parts"
+          >
+            <p>
+              There are  parts in this minifig:
+            </p>
+            <div
+              class="loader-with-message"
+              style="visibility: visible;"
+            >
+              <div
+                class="loader"
+              />
+              <p
+                style="color: black; margin-left: 1rem;"
+              >
+                Loading minifig parts ...
+              </p>
+            </div>
+          </div>
+          <button
+            class="submit"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </main>
+  </div>
+</div>
+`;

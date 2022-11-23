@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ValidationError Should match snapshot - hidden 1`] = `
+<div>
+  <p
+    class="error"
+    style="visibility: hidden;"
+  />
+</div>
+`;
+
+exports[`ValidationError Should match snapshot - visible 1`] = `
+<div>
+  <p
+    class="error"
+    style="visibility: visible;"
+  >
+    error
+  </p>
+</div>
+`;

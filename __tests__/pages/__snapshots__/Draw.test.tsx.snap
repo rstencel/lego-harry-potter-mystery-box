@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Draw Should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <main>
+      <h1>
+        Choose your minifig
+      </h1>
+      <div
+        class="grid"
+      />
+      <button
+        disabled=""
+      >
+        Proceed to shipment
+      </button>
+    </main>
+  </div>
+</div>
+`;
