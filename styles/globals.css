@@ -89,3 +89,7 @@ p.error {
 .error {
   color: lightcoral;
 }
+
+img {
+  object-fit: contain;
+}
