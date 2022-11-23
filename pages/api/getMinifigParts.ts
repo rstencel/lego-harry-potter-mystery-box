@@ -21,7 +21,6 @@ const getMinifigParts = async (req: NextApiRequest, res: NextApiResponse<Respons
       return response.json()
     })
     .catch((error) => {
-      console.log("CAUGHT!", error)
       res.status(500).json({ error })
     })
 
